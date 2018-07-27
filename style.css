@@ -1,0 +1,124 @@
+body{
+    background: rgb(68, 2, 68);
+    font-family: 'Merienda';
+}
+h1{
+background: rgb(3, 83, 14);  
+color: whitesmoke;
+width: 100%;  
+padding: 1em 1em;
+margin: none;
+}
+
+img{
+    width: 30%;
+    align: left;
+    display: inline;
+    padding-left: 1em;
+    
+}
+
+
+.rulebox{
+    float: left;
+    display: inline-flex;      
+    text-align: left;
+    color: #eeeeee;
+    margin-left: 3em;
+    padding-left: 2em;
+    padding-right: 2em;
+
+    background: rgb(43, 123, 54);  
+
+   
+    border-color: rgb(3, 83, 14);    
+    border-style: double; 
+
+              
+}
+
+.ruleset {
+    display: block;
+    padding: 0.5em;
+    color: #eeeeee;
+    background: rgb(3,83,14);
+    border-color: rgb(3,83,14);
+    border-style : solid;
+    flex-direction: row;
+    align-content: space-around;
+    margin: 1em 2em;
+}
+.ruleset h1{
+    display: block;
+    padding-bottom: 0.5em;
+
+}
+
+.ruleset p {
+    align-self: flex-end;
+  
+}
+
+.navbar {
+    background-color: #300060;
+    padding: 1em 0px;
+    font-family: 'Do Hyeon' ;
+    display: flex;
+    justify-content: center;
+
+}
+
+.navbar a { /* this is the links */
+    color: rgb(200,200,200);
+    text-align: center;
+    padding: 1em 1em;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #300060;
+}
+
+
+.navbar a:hover {
+    background-color: #6020B0;
+    color: rgb(240,240,240);
+}
+
+
+
+/* Width Classes */
+
+.ten {
+    width: 10%
+}
+
+.twenty {
+    width : 20%
+}
+
+.thirty {
+    width : 33%
+}
+
+.forty {
+    width : 40%
+}
+
+.fifty {
+    width : 50%
+}
+
+.sixty { 
+    width : 60%
+}
+
+.seventy {
+    width: 70% 
+}
+
+.eighty {
+    width: 80%
+}
+.lolno{
+    padding-left: 900px;
+ 
+}
